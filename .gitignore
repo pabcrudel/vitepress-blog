@@ -1,0 +1,5 @@
+node_modules
+
+# VitePress recomendations
+docs/.vitepress/dist
+docs/.vitepress/cache

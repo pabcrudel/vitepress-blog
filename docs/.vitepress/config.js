@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: './',
+  // GitHub repository name that will be the path on GitHub Pages
+  base: '/vitepress-blog/',
   title: "vitepress-blog",
   description: "Blog generated from Markdowns using Vite + Vue",
   themeConfig: {

@@ -1,0 +1,11 @@
+{
+  "name": "vitepress-blog",
+  "version": "1.0.0",
+  "description": "Blog generated from Markdowns using Vite + Vue",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Cru Delhom (pabcrudel)",
+  "license": "MIT"
+}

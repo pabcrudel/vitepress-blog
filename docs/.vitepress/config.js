@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/vitepress-blog/',
   title: "vitepress-blog",
   description: "Blog generated from Markdowns using Vite + Vue",
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

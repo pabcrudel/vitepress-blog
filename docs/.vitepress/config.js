@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { titleCamelCase } from '../src/title-camel-case'
 
 const repositoryName = 'vitepress-blog';
 const repositoryOwner = 'pabcrudel';
@@ -7,7 +8,7 @@ const repositoryOwner = 'pabcrudel';
 export default defineConfig({
   // GitHub repository name that will be the path on GitHub Pages
   base: `/${repositoryName}/`,
-  title: repositoryName,
+  title: titleCamelCase(repositoryName),
   description: "Blog generated from Markdowns using Vite + Vue",
   cleanUrls: true,
   themeConfig: {

@@ -1,10 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+const repositoryName = 'vitepress-blog';
+const repositoryOwner = 'pabcrudel';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // GitHub repository name that will be the path on GitHub Pages
-  base: '/vitepress-blog/',
-  title: "vitepress-blog",
+  base: `/${repositoryName}/`,
+  title: repositoryName,
   description: "Blog generated from Markdowns using Vite + Vue",
   cleanUrls: true,
   themeConfig: {
@@ -25,7 +28,10 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      {
+        icon: 'github',
+        link: `https://github.com/${repositoryOwner}/${repositoryName}`
+      }
     ]
   }
 })

@@ -9,6 +9,11 @@ on:
       - docs/**
       - .github/workflows/deploy.yml
 
+# Allow only one concurrent deployment
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   ci-cd:
     runs-on: ubuntu-latest

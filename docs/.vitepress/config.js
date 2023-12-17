@@ -32,5 +32,15 @@ export default defineConfig({
         link: `https://github.com/${repositoryOwner}/${repositoryName}`
       }
     ]
-  }
+  },
+  head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: 'https://pabcrudel.github.io/assets/favicon/favicon.ico'
+      }
+    ],
+  ]
 })
